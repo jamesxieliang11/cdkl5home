@@ -44,7 +44,8 @@ import {
   FaHandsHelping,
   FaDonate,
   FaRegCalendarAlt,
-  FaClock
+  FaClock,
+  FaMapMarkerAlt
 } from 'react-icons/fa';
 
 import PageHeader from '../components/PageHeader';
