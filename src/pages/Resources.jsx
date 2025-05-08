@@ -35,7 +35,10 @@ import {
   Divider,
   HStack,
   VStack,
-  Image
+  Image,
+  FormControl,
+  FormLabel,
+  Checkbox
 } from '@chakra-ui/react';
 import { 
   SearchIcon, 
