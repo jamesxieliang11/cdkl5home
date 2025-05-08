@@ -209,7 +209,8 @@ const Contact = () => {
                   alignItems="center"
                   justifyContent="center"
                 >
-                  <Image 
+                  <Box 
+                    as="img" 
                     src={partner.logo} 
                     alt={partner.name} 
                     maxW="120px" 

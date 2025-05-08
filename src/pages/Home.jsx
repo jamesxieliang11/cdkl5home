@@ -115,11 +115,13 @@ const Home = () => {
           alignItems="center"
         >
           <GridItem>
-            <Image
+            <Box
+              as="img"
               rounded="lg"
               shadow="lg"
               src="https://images.unsplash.com/photo-1559757175-7b21e5afae2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1289&q=80"
               alt="CDKL5疾病"
+              width="100%"
             />
           </GridItem>
           <GridItem>

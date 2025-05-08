@@ -643,7 +643,8 @@ const Resources = () => {
               下载并打印CDKL5医疗警示卡，随身携带，在紧急情况下帮助医务人员了解患者的特殊医疗需求。
             </Text>
             <Flex justify="center">
-              <Image 
+              <Box 
+                as="img" 
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
                 alt="医疗警示卡示例"
                 height="200px"

@@ -32,7 +32,8 @@ import {
   Link,
   HStack,
   VStack,
-  Icon
+  Icon,
+  Image
 } from '@chakra-ui/react';
 import { 
   ChatIcon, 
@@ -319,7 +320,8 @@ const Community = () => {
                   {expertLives.map(live => (
                     <Card key={live.id} overflow="hidden" variant="outline">
                       <Box position="relative">
-                        <Image 
+                        <Box
+                          as="img"
                           src={live.image}
                           alt={live.title}
                           height="200px"

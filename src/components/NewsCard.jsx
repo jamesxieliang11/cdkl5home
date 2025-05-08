@@ -18,7 +18,14 @@ const NewsCard = ({ title, date, image, summary, category, link, ...rest }) => {
       }}
       {...rest}
     >
-      <Image src={image} alt={title} height="200px" width="100%" objectFit="cover" />
+      <Box 
+        as="img" 
+        src={image} 
+        alt={title} 
+        height="200px" 
+        width="100%" 
+        objectFit="cover" 
+      />
       <Box p={5}>
         <Stack direction="row" spacing={2} mb={2} align="center">
           <Badge colorScheme="brand" variant="solid" px={2} py={1} borderRadius="md">
