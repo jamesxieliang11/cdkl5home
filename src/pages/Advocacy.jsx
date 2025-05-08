@@ -43,7 +43,8 @@ import {
   FaGlobe,
   FaHandsHelping,
   FaDonate,
-  FaRegCalendarAlt
+  FaRegCalendarAlt,
+  FaClock
 } from 'react-icons/fa';
 
 import PageHeader from '../components/PageHeader';
