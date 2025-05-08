@@ -144,7 +144,7 @@ const Advocacy = () => {
       description: "邀请全球CDKL5专家分享最新研究进展和治疗方法，为患者家庭提供信息和希望。"
     },
     {
-      title: ""绿光行动"—CDKL5宣传徒步",
+      title: "绿光行动—CDKL5宣传徒步",
       date: "2023-10-26",
       time: "9:00-12:00",
       location: "各主要城市",

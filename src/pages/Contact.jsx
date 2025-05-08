@@ -24,7 +24,7 @@ import {
   WrapItem
 } from '@chakra-ui/react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaTwitter, FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import PageLayout from '../components/layout/PageLayout';
+import PageHeader from '../components/PageHeader';
 
 // 专家团队数据
 const experts = [
@@ -132,7 +132,13 @@ const Contact = () => {
   };
 
   return (
-    <PageLayout title="联系我们">
+    <Box>
+      <PageHeader 
+        title="联系我们" 
+        description="与CDKL5门户网站团队取得联系，提出问题或分享您的建议"
+        breadcrumbs={[{ name: '联系我们', path: '/contact' }]}
+      />
+      
       <Container maxW="container.xl" py={10}>
         {/* 联系信息部分 */}
         <Box mb={12} textAlign="center">
@@ -304,7 +310,7 @@ const Contact = () => {
           </HStack>
         </Box>
       </Container>
-    </PageLayout>
+    </Box>
   );
 };
 
